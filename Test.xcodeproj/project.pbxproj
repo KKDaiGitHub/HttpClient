@@ -15,6 +15,18 @@
 		5267CFAB1C5DC56400AA53FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5267CFA91C5DC56400AA53FA /* LaunchScreen.storyboard */; };
 		5267CFB61C5DC56400AA53FA /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5267CFB51C5DC56400AA53FA /* TestTests.m */; };
 		5267CFC11C5DC56400AA53FA /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5267CFC01C5DC56400AA53FA /* TestUITests.m */; };
+		5285E6371C79C723007A0FBB /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5285E6361C79C723007A0FBB /* HttpClient.m */; };
+		5285E63A1C79DB54007A0FBB /* HttpClient+v2_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5285E6391C79DB54007A0FBB /* HttpClient+v2_3.m */; };
+		52EBF0041C7AABCD00686CFF /* TimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EBF0021C7AABCD00686CFF /* TimePickerView.m */; };
+		52EBF0051C7AABCD00686CFF /* TimePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52EBF0031C7AABCD00686CFF /* TimePickerView.xib */; };
+		52EBF0081C7AAD2300686CFF /* UIView+ViewFrameGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EBF0071C7AAD2300686CFF /* UIView+ViewFrameGeometry.m */; };
+		52EBF0111C7AAE7E00686CFF /* IBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EBF00A1C7AAE7E00686CFF /* IBButton.m */; };
+		52EBF0121C7AAE7E00686CFF /* IBLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EBF00C1C7AAE7E00686CFF /* IBLabel.m */; };
+		52EBF0131C7AAE7E00686CFF /* IBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EBF00E1C7AAE7E00686CFF /* IBView.m */; };
+		52EBF0141C7AAE7E00686CFF /* IBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EBF0101C7AAE7E00686CFF /* IBImageView.m */; };
+		52EBF0171C7AAF1400686CFF /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EBF0161C7AAF1400686CFF /* TestViewController.m */; };
+		52EBF0191C7AAF3300686CFF /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52EBF0181C7AAF3300686CFF /* TestViewController.xib */; };
+		DA23EE6DB09126F0FF1BC8C4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91352D854578A763FB5D84BE /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04C629DEA5CC6F5D2D5664E9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		5267CF981C5DC56300AA53FA /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5267CF9C1C5DC56400AA53FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5267CF9E1C5DC56400AA53FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,28 @@
 		5267CFBC1C5DC56400AA53FA /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5267CFC01C5DC56400AA53FA /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		5267CFC21C5DC56400AA53FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5285E6351C79C723007A0FBB /* HttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
+		5285E6361C79C723007A0FBB /* HttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpClient.m; sourceTree = "<group>"; };
+		5285E6381C79DB54007A0FBB /* HttpClient+v2_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HttpClient+v2_3.h"; sourceTree = "<group>"; };
+		5285E6391C79DB54007A0FBB /* HttpClient+v2_3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HttpClient+v2_3.m"; sourceTree = "<group>"; };
+		52EBF0011C7AABCD00686CFF /* TimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimePickerView.h; sourceTree = "<group>"; };
+		52EBF0021C7AABCD00686CFF /* TimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimePickerView.m; sourceTree = "<group>"; };
+		52EBF0031C7AABCD00686CFF /* TimePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimePickerView.xib; sourceTree = "<group>"; };
+		52EBF0061C7AAD2300686CFF /* UIView+ViewFrameGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewFrameGeometry.h"; sourceTree = "<group>"; };
+		52EBF0071C7AAD2300686CFF /* UIView+ViewFrameGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewFrameGeometry.m"; sourceTree = "<group>"; };
+		52EBF0091C7AAE7E00686CFF /* IBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBButton.h; sourceTree = "<group>"; };
+		52EBF00A1C7AAE7E00686CFF /* IBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBButton.m; sourceTree = "<group>"; };
+		52EBF00B1C7AAE7E00686CFF /* IBLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBLabel.h; sourceTree = "<group>"; };
+		52EBF00C1C7AAE7E00686CFF /* IBLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBLabel.m; sourceTree = "<group>"; };
+		52EBF00D1C7AAE7E00686CFF /* IBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBView.h; sourceTree = "<group>"; };
+		52EBF00E1C7AAE7E00686CFF /* IBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBView.m; sourceTree = "<group>"; };
+		52EBF00F1C7AAE7E00686CFF /* IBImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBImageView.h; sourceTree = "<group>"; };
+		52EBF0101C7AAE7E00686CFF /* IBImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBImageView.m; sourceTree = "<group>"; };
+		52EBF0151C7AAF1400686CFF /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		52EBF0161C7AAF1400686CFF /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		52EBF0181C7AAF3300686CFF /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		91352D854578A763FB5D84BE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69D0BBE51F0A850E58BFD3E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA23EE6DB09126F0FF1BC8C4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +121,8 @@
 				5267CFB41C5DC56400AA53FA /* TestTests */,
 				5267CFBF1C5DC56400AA53FA /* TestUITests */,
 				5267CF991C5DC56300AA53FA /* Products */,
+				CF6240AAA9C63F5700BD060C /* Pods */,
+				CBAD2E23EFEB0D77008CFD23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +139,8 @@
 		5267CF9A1C5DC56300AA53FA /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				52EBF0001C7AABC100686CFF /* View */,
+				5285E6341C79C6D6007A0FBB /* Service */,
 				5267CF9E1C5DC56400AA53FA /* AppDelegate.h */,
 				5267CF9F1C5DC56400AA53FA /* AppDelegate.m */,
 				5267CFA11C5DC56400AA53FA /* ViewController.h */,
@@ -110,6 +150,9 @@
 				5267CFA91C5DC56400AA53FA /* LaunchScreen.storyboard */,
 				5267CFAC1C5DC56400AA53FA /* Info.plist */,
 				5267CF9B1C5DC56400AA53FA /* Supporting Files */,
+				52EBF0151C7AAF1400686CFF /* TestViewController.h */,
+				52EBF0161C7AAF1400686CFF /* TestViewController.m */,
+				52EBF0181C7AAF3300686CFF /* TestViewController.xib */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -140,6 +183,54 @@
 			path = TestUITests;
 			sourceTree = "<group>";
 		};
+		5285E6341C79C6D6007A0FBB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5285E6351C79C723007A0FBB /* HttpClient.h */,
+				5285E6361C79C723007A0FBB /* HttpClient.m */,
+				5285E6381C79DB54007A0FBB /* HttpClient+v2_3.h */,
+				5285E6391C79DB54007A0FBB /* HttpClient+v2_3.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		52EBF0001C7AABC100686CFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52EBF0091C7AAE7E00686CFF /* IBButton.h */,
+				52EBF00A1C7AAE7E00686CFF /* IBButton.m */,
+				52EBF00B1C7AAE7E00686CFF /* IBLabel.h */,
+				52EBF00C1C7AAE7E00686CFF /* IBLabel.m */,
+				52EBF00D1C7AAE7E00686CFF /* IBView.h */,
+				52EBF00E1C7AAE7E00686CFF /* IBView.m */,
+				52EBF00F1C7AAE7E00686CFF /* IBImageView.h */,
+				52EBF0101C7AAE7E00686CFF /* IBImageView.m */,
+				52EBF0061C7AAD2300686CFF /* UIView+ViewFrameGeometry.h */,
+				52EBF0071C7AAD2300686CFF /* UIView+ViewFrameGeometry.m */,
+				52EBF0011C7AABCD00686CFF /* TimePickerView.h */,
+				52EBF0021C7AABCD00686CFF /* TimePickerView.m */,
+				52EBF0031C7AABCD00686CFF /* TimePickerView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CBAD2E23EFEB0D77008CFD23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91352D854578A763FB5D84BE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF6240AAA9C63F5700BD060C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C69D0BBE51F0A850E58BFD3E /* Pods.debug.xcconfig */,
+				04C629DEA5CC6F5D2D5664E9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5267CFC51C5DC56400AA53FA /* Build configuration list for PBXNativeTarget "Test" */;
 			buildPhases = (
+				EA694EE31BA47C1A6A0ACB48 /* Check Pods Manifest.lock */,
 				5267CF941C5DC56300AA53FA /* Sources */,
 				5267CF951C5DC56300AA53FA /* Frameworks */,
 				5267CF961C5DC56300AA53FA /* Resources */,
+				F63520B6C4005427A11F7AA8 /* Embed Pods Frameworks */,
+				C6DA9C04DB2A283EA2AB8FA5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +301,7 @@
 				TargetAttributes = {
 					5267CF971C5DC56300AA53FA = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NPHK4GA7Z3;
 					};
 					5267CFB01C5DC56400AA53FA = {
 						CreatedOnToolsVersion = 7.2;
@@ -244,8 +339,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5267CFAB1C5DC56400AA53FA /* LaunchScreen.storyboard in Resources */,
+				52EBF0191C7AAF3300686CFF /* TestViewController.xib in Resources */,
 				5267CFA81C5DC56400AA53FA /* Assets.xcassets in Resources */,
 				5267CFA61C5DC56400AA53FA /* Main.storyboard in Resources */,
+				52EBF0051C7AABCD00686CFF /* TimePickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +362,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C6DA9C04DB2A283EA2AB8FA5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA694EE31BA47C1A6A0ACB48 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F63520B6C4005427A11F7AA8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5267CF941C5DC56300AA53FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,7 +417,16 @@
 			files = (
 				5267CFA31C5DC56400AA53FA /* ViewController.m in Sources */,
 				5267CFA01C5DC56400AA53FA /* AppDelegate.m in Sources */,
+				52EBF0141C7AAE7E00686CFF /* IBImageView.m in Sources */,
+				52EBF0081C7AAD2300686CFF /* UIView+ViewFrameGeometry.m in Sources */,
+				5285E63A1C79DB54007A0FBB /* HttpClient+v2_3.m in Sources */,
+				52EBF0121C7AAE7E00686CFF /* IBLabel.m in Sources */,
+				52EBF0171C7AAF1400686CFF /* TestViewController.m in Sources */,
+				52EBF0111C7AAE7E00686CFF /* IBButton.m in Sources */,
+				52EBF0041C7AABCD00686CFF /* TimePickerView.m in Sources */,
+				5285E6371C79C723007A0FBB /* HttpClient.m in Sources */,
 				5267CF9D1C5DC56400AA53FA /* main.m in Sources */,
+				52EBF0131C7AAE7E00686CFF /* IBView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,23 +565,31 @@
 		};
 		5267CFC61C5DC56400AA53FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C69D0BBE51F0A850E58BFD3E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = John.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jht-primer.test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		5267CFC71C5DC56400AA53FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C629DEA5CC6F5D2D5664E9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = John.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jht-primer.test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +660,7 @@
 				5267CFC71C5DC56400AA53FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5267CFC81C5DC56400AA53FA /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +669,7 @@
 				5267CFCA1C5DC56400AA53FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5267CFCB1C5DC56400AA53FA /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +678,7 @@
 				5267CFCD1C5DC56400AA53FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

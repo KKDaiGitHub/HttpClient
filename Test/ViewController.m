@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "HttpClient+v2_3.h"
+#import "TimePickerView.h"
+#import "TestViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <UITextFieldDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextField *txfTest;
 
 @end
 
@@ -16,12 +21,34 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+	//[HttpClient sharedClient].responseSerializer = [AFHTTPResponseSerializer serializer];
+//	[HttpClient getBaiduHTMLSuccess:^(NSString *message, id jsonObj) {
+//		
+//		UIAlertController *ac = [UIAlertController alertControllerWithTitle:@"success" message:message preferredStyle:UIAlertControllerStyleAlert];
+//		[self presentViewController:ac animated:YES completion:nil];
+//		
+//	} failure:^(NSInteger erroeCode, NSString *errorMessage) {
+//		
+//		UIAlertController *ac = [UIAlertController alertControllerWithTitle:@"fail" message:errorMessage preferredStyle:UIAlertControllerStyleAlert];
+//		[self presentViewController:ac animated:YES completion:nil];
+//		
+//	}];
+	
 }
 
-- (void)didReceiveMemoryWarning {
-	[super didReceiveMemoryWarning];
-	// Dispose of any resources that can be recreated.
+- (IBAction)push:(id)sender
+{
+	[self showViewController:[TestViewController new] sender:nil];
 }
+
+- (void)viewDidAppear:(BOOL)animated
+{
+	[super viewDidAppear:animated];
+	[[TimePickerView aTimePickerViewWithBlock:^(NSString *timeString) {
+		
+	}] show];
+}
+
 
 @end
